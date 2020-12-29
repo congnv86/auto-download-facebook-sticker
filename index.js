@@ -17,7 +17,6 @@ const download = require('./utils/download.js');
 const STICKERS_PACK_JSON = 'stickers-packs.json';
 const SAVE_FOLDER = 'download';
 const SAVE_PACKS_SUMMARY_TO = `${SAVE_FOLDER}/packs-summary`;
-const SAVE_STICKERS_TO = `${SAVE_FOLDER}/stickers`;
 
 /**
  * Check if folder is exist
@@ -83,7 +82,6 @@ async function downloadPack(pack) {
 
 maybeMakeDirIfNotExist(SAVE_FOLDER);
 maybeMakeDirIfNotExist(SAVE_PACKS_SUMMARY_TO);
-maybeMakeDirIfNotExist(SAVE_STICKERS_TO);
 
 let packsJson;
 let _downloadedCount = 0;
