@@ -1,0 +1,29 @@
+{
+  "name": "auto-download-facebook-sticker",
+  "version": "1.0.0",
+  "description": "Auto download Facebook Stickers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congnv86/auto-download-facebook-stickers.git"
+  },
+  "keywords": [
+    "facebook",
+    "stickers"
+  ],
+  "author": "Cong Nguyen (https://www.facebook.com/congnguyen020/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/congnv86/auto-download-facebook-stickers/issues"
+  },
+  "homepage": "https://github.com/congnv86/auto-download-facebook-stickers#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "recursive-readdir": "^2.2.2",
+    "request": "^2.88.2"
+  }
+}
